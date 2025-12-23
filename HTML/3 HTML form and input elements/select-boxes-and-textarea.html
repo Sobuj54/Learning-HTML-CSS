@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
+  </head>
+  <body>
+    <main>
+      <h1>Tech support</h1>
+      <form>
+        <label for="product">Select a product</label>
+        <!-- multipe attribute lets us select multiple options and size gives how many options we can see initially -->
+        <select name="" id="product" multiple size="2">
+          <option value="phone">Phone</option>
+          <option value="pc">PC</option>
+          <!-- selected attribute is used to provide a default selected options -->
+          <option value="windows" selected>windows</option>
+          <option value="Mac">Mac</option>
+          <option value="iphone">iPhone</option>
+          <option value="android">Android</option>
+        </select>
+
+        <br />
+
+        <label for="message">Message</label>
+        <!-- here rows and cols are the height and width of the textarea -->
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="5"
+          placeholder="Enter your message"
+        ></textarea>
+
+        <div><button type="submit">Submit</button></div>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Datalist</h1>
+      <form>
+        <label for="favLanguage">Programming languages</label>
+        <input
+          type="text"
+          list="languages"
+          id="favLanguage"
+          name="favLanguage"
+        />
+        <datalist id="languages">
+          <option value="C"></option>
+          <option value="C++"></option>
+          <option value="python"></option>
+          <option value="Rust"></option>
+          <option value="javascript"></option>
+          <option value="Go"></option>
+        </datalist>
+
+        <br />
+
+        <label for="tick">Tick marks</label>
+        <input
+          type="range"
+          list="ticks"
+          id="tick"
+          name="tick"
+          min="0"
+          max="100"
+          value="50"
+          step="10"
+        />
+        <datalist id="ticks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </form>
+    </main>
+  </body>
+</html>
