@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>audio</title>
+  </head>
+  <body>
+    <main>
+      <h1>Audio</h1>
+      <!-- one way of using audio -->
+      <!-- <audio src="audio.mp3" type="audio/mp3" controls></audio> -->
+
+      <!-- another way -->
+      <audio controls>
+        <source src="audio.mp3" type="audio/mp3" />
+        <!-- fallback -->
+        <p>Your browser doesn't support audio</p>
+      </audio>
+
+      <!-- <audio src="audio.mp3" controls autoplay loop></audio> -->
+
+      <figure>
+        <figcaption>Listen to the audio:</figcaption>
+        <audio src="audio.mp3" controls></audio>
+        <a href="audio.mp3">Download</a>
+      </figure>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image map</title>
+  </head>
+  <body>
+    <main>
+      <h1>Image map</h1>
+      <img src="image.avif" alt="img" usemap="#computermap" />
+
+      <map name="computermap">
+        <!-- coords are left top conter and righ bottom corner of the rectangle shape -->
+        <area
+          shape="rect"
+          coords="100,120, 700, 550"
+          href="audio.html"
+          alt="computer"
+          title="go to computer store"
+        />
+
+        <!-- coords are the center of circle from left,top and radius -->
+        <area
+          shape="circle"
+          coords="850,250,90"
+          href="video.html"
+          alt="coffe"
+          title="get a coffe"
+        />
+      </map>
+    </main>
+  </body>
+</html>
