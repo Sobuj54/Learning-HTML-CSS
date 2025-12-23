@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG</title>
+    <style>
+      .blob {
+        max-width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>SVG</h1>
+      <svg width="400" hight="400">
+        <!-- cx,cy defines center point and r is radius -->
+        <Circle
+          cx="100"
+          cy="80"
+          r="50"
+          fill="black"
+          stroke="blue"
+          stroke-width="4"
+        />
+        <text x="80" y="85" fill="white" font-size="20">SVG</text>
+      </svg>
+
+      <svg
+        class="blob"
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#A7F0BA"
+          d="M39.2,-73.9C48.4,-62.6,51.9,-47.3,57,-34.3C62.2,-21.3,69,-10.7,68.4,-0.4C67.7,9.9,59.6,19.8,51.7,28.1C43.9,36.4,36.4,43.2,27.8,49.5C19.2,55.9,9.6,61.9,0.6,60.8C-8.4,59.7,-16.8,51.6,-31.1,48.6C-45.4,45.6,-65.7,47.6,-77,40.4C-88.3,33.1,-90.6,16.6,-89.2,0.8C-87.8,-14.9,-82.7,-29.9,-72.9,-39.6C-63,-49.4,-48.4,-53.9,-35.4,-63C-22.5,-72.2,-11.2,-86,1.9,-89.2C15,-92.5,30,-85.2,39.2,-73.9Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+    </main>
+  </body>
+</html>
