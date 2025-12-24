@@ -1,0 +1,24 @@
+/* universal selector  */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: content-box;  this is default */
+  /* in this case padding and border is not included in height,width calculation */
+
+  box-sizing: border-box;
+  /* border-box makes sure that padding and border is included in height,width calculation */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.box {
+  background-color: orange;
+  max-width: 800px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
