@@ -1,0 +1,32 @@
+.container {
+  max-width: 900px;
+  margin: 70px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  /* vendor prefixes- it is used when a feature is not supported in a specific browser */
+  /* -webkit-filter: grayscale(10%);
+  -moz-filter: grayscale(10%);
+  -o-filter: grayscale(10%);
+  -ms-filter: grayscale(10%);
+  filter: grayscale(10%); */
+
+  /* filter: grayscale(0%); the image becomes more grayish with percentage increase. 0% is the original color */
+  /* filter: blur(0px); the more pixel is added the more blur it will get */
+
+  /* filter: brightness(100%);  */
+  /* filter: contrast(100%); */
+  /* filter: drop-shadow(10px 10px 5px green); similar to box shadow */
+
+  /* filter: invert(100%); in 100% image becomes negative like*/
+  /* filter: opacity(100%); */
+  /* filter: saturate(100%); */
+
+  /* chain filter  */
+  filter: grayscale(10%) blur(1px);
+}
