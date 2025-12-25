@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 30px;
+  container-type: inline-size;
+  container-name: para;
+}
+
+main p {
+  background-color: greenyellow;
+  padding: 30px;
+}
+
+@container para  (max-width: 900px) {
+  main p {
+    background-color: red;
+  }
+}
