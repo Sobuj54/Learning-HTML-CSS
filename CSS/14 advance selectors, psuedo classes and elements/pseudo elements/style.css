@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+/* psuedo elements */
+p::first-letter {
+  font-size: 3rem;
+}
+
+p::first-line {
+  color: purple;
+}
+
+/* when user selects text using mouse */
+p::selection {
+  color: yellow;
+  background-color: red;
+}
+
+input:required {
+  border-color: red;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  color: blue;
+}
+
+/* file button styling */
+input::file-selector-button {
+  color: white;
+  background-color: blue;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+}
+
+li::marker {
+  content: "👉";
+}

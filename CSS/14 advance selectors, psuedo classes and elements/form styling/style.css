@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #007bfa;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8b8383;
+  border-radius: 5px;
+  font-family: inherit;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--primary-color);
+  background: lightgray;
+}
+
+input[type="submit"] {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+form:focus-within {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+
+input:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:valid,
+textarea:valid {
+  border-color: green;
+}
