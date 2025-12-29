@@ -23,10 +23,11 @@ Project Root
 │   ├── 1 essential-html
 │   ├── 2 html-forms-and-input-elements
 │   └── 3 additional-html-elements
-├── landing-form-mini-project
-├── leno-website-bem
-├── lumina-website
-└── tutor-website
+├── Bono landing page
+├── leno-website (BEM)
+├── lumina website
+└── tutor website
+└── screenshots
 ```
 
 ---
