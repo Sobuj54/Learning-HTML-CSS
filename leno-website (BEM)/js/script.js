@@ -1,11 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   // mobile menu control
   const toggleButton = document.querySelector(".navbar__mobile-menu-toggle");
+  const crossMark = document.querySelector(".navbar__cross");
+  const hamburger = document.querySelector(".navbar__hamburger");
 
   const mobileMenu = document.querySelector(".navbar__mobile-menu-items");
 
   toggleButton.addEventListener("click", () => {
     mobileMenu.classList.toggle("active");
+    crossMark.classList.toggle("show");
+    hamburger.classList.toggle("hide");
   });
 
   // modal
