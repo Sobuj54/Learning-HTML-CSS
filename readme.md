@@ -7,6 +7,31 @@ This repository demonstrates my understanding of modern **HTML5** and **CSS3** c
 
 ---
 
+## 📁 Folder Structure
+
+```text
+Project Root
+├── CSS
+│   ├── 1 css-basics
+│   ├── 2 box-model-and-positioning
+│   ├── 3 flexbox
+│   ├── 4 responsive-design
+│   ├── 5 various-css-features
+│   ├── 6 advanced-selectors-and-pseudo
+│   ├── 7 css-grid
+│   └── 8 transitions-and-animations
+├── HTML
+│   ├── 1 essential-html
+│   ├── 2 html-forms-and-input-elements
+│   └── 3 additional-html-elements
+├── landing-form-mini-project
+├── leno-website-bem
+├── lumina-website
+└── tutor-website
+```
+
+---
+
 ## 🚀 Live Demos
 
 - **Leno Website** – [**Live**](https://leno-health.netlify.app/)
@@ -33,29 +58,6 @@ This repository demonstrates my understanding of modern **HTML5** and **CSS3** c
 - Google Fonts
 
 ---
-
-## 📁 Folder Structure
-
-```text
-Project Root
-├── CSS
-│   ├── 1 css-basics
-│   ├── 2 box-model-and-positioning
-│   ├── 3 flexbox
-│   ├── 4 responsive-design
-│   ├── 5 various-css-features
-│   ├── 6 advanced-selectors-and-pseudo
-│   ├── 7 css-grid
-│   └── 8 transitions-and-animations
-├── HTML
-│   ├── 1 essential-html
-│   ├── 2 html-forms-and-input-elements
-│   └── 3 additional-html-elements
-├── landing-form-mini-project
-├── leno-website-bem
-├── lumina-website
-└── tutor-website
-```
 
 ---
 
