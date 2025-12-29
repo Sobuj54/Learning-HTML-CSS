@@ -1,7 +1,6 @@
 # 🌐 Modern HTML & CSS
 
-A collection of projects, exercises, and practice files built while completing  
-**Modern HTML & CSS From The Beginning 2.0** by **Brad Traversy** on Udemy.
+A collection of projects, exercises, and practice files built while completing **Modern HTML & CSS From The Beginning 2.0** by **Brad Traversy** on Udemy.
 
 This repository demonstrates my understanding of modern **HTML5** and **CSS3** concepts through real-world, responsive website projects without using JavaScript frameworks.
 
@@ -109,6 +108,36 @@ Project Root
 - Adding smooth **animations and transitions**
 - Integrating **Lightbox** and **Font Awesome**
 - Deploying static websites using modern hosting platform **netlify**
+
+## ⚙️ Usage
+
+You can explore and run these projects locally in a few simple steps:
+
+1️⃣ Clone the Repository
+
+Click the "Copy" button next to the command (or copy manually):
+
+```bash
+https://github.com/Sobuj54/Learning-HTML-CSS
+```
+
+2️⃣ Navigate into the Project Folder
+
+3️⃣ Open a Project
+
+### You have two options to run the projects locally:
+
+Option A: Using Live Server (Recommended)
+
+1. Open your code editor (e.g., VS Code) in the project folder.
+2. Right-click `index.html` and select **“Open with Live Server”**.
+3. Your browser will open the project, and any changes you make will auto-refresh.
+
+Option B: Opening Directly in Browser
+
+1. Navigate to the project folder.
+2. Double-click `index.html`.
+3. The project will open in your default browser.
 
 ## 🎓 Course Credit
 
