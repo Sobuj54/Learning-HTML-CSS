@@ -1,4 +1,94 @@
-## Projects
+# 🌐 Modern HTML & CSS Projects
 
-- [Leno Health](https://leno-health.netlify.app/) – A health and fitness web app.
-- [Tutor Guide](https://tutor-guide.netlify.app/) – A tutoring platform for managing courses and students.
+A collection of projects, exercises, and practice files built while completing  
+**Modern HTML & CSS From The Beginning 2.0** by **Brad Traversy** on Udemy.
+
+This repository demonstrates my understanding of modern **HTML5** and **CSS3** concepts through real-world, responsive website projects without using JavaScript frameworks.
+
+---
+
+## 🚀 Live Demos
+
+- **Leno Website** – https://leno-health.netlify.app/
+- **Tutor Website** – https://tutor-guide.netlify.app/
+- **Lumina Website** – https://luumina.netlify.app/
+- **Bono Landing Website** – https://form-p.netlify.app/
+
+---
+
+## 🛠 Technologies & Concepts Used
+
+- HTML5 (Semantic Markup)
+- CSS3
+- Flexbox
+- CSS Grid
+- Responsive Design
+- Media Queries
+- CSS Variables (Custom Properties)
+- Animations & Transitions
+- **BEM (Block Element Modifier) Naming Convention**
+- Utility-First CSS Patterns
+- Lightbox (in Lumina)
+- Font Awesome (icons)
+- Google Fonts
+
+---
+
+## 📂 Projects Included
+
+### 1️⃣ Leno App
+
+- Fully responsive productivity assistant
+- Flexbox & CSS Grid layout
+- Clean and semantic HTML structure
+- **BEM Naming Convention**
+- ![Leno ](screenshots/leno.png)
+
+### 2️⃣ Tutor
+
+- Multi-page online tutor website
+- Smooth scrolling navigation
+- Contact page included
+- Reusable utility classes
+- ![Tutor ](screenshots/tutor.png)
+
+### 3️⃣ Lumina
+
+- Portfolio website
+- CSS Grid-based layout
+- Multi-page feature
+- Fully responsive
+- Lightbox integration
+- ![Lumina ](screenshots/lumina.png)
+
+### 4️⃣ Bono
+
+- Landing page with form
+- CSS Flex-based layout
+- Fully responsive
+- ![Bono ](screenshots/bono.png)
+
+---
+
+## 📁 Folder Structure
+
+```text
+Project Root
+├── CSS
+│   ├── 1 css-basics
+│   ├── 2 box-model-and-positioning
+│   ├── 3 flexbox
+│   ├── 4 responsive-design
+│   ├── 5 various-css-features
+│   ├── 6 advanced-selectors-and-pseudo
+│   ├── 7 css-grid
+│   └── 8 transitions-and-animations
+├── HTML
+│   ├── 1 essential-html
+│   ├── 2 html-forms-and-input-elements
+│   └── 3 additional-html-elements
+├── landing-form-mini-project
+├── leno-website-bem
+├── lumina-website
+└── tutor-website
+```
