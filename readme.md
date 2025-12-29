@@ -1,4 +1,4 @@
-# 🌐 Modern HTML & CSS Projects
+# 🌐 Modern HTML & CSS
 
 A collection of projects, exercises, and practice files built while completing  
 **Modern HTML & CSS From The Beginning 2.0** by **Brad Traversy** on Udemy.
@@ -9,10 +9,10 @@ This repository demonstrates my understanding of modern **HTML5** and **CSS3** c
 
 ## 🚀 Live Demos
 
-- **Leno Website** – https://leno-health.netlify.app/
-- **Tutor Website** – https://tutor-guide.netlify.app/
-- **Lumina Website** – https://luumina.netlify.app/
-- **Bono Landing Website** – https://form-p.netlify.app/
+- **Leno Website** – [**Live**](https://leno-health.netlify.app/)
+- **Tutor Website** – [**Live**](https://tutor-guide.netlify.app/)
+- **Lumina Website** – [**Live**](https://luumina.netlify.app/)
+- **Bono Landing Website** – [**Live**](https://bono-f.netlify.app/)
 
 ---
 
@@ -31,6 +31,31 @@ This repository demonstrates my understanding of modern **HTML5** and **CSS3** c
 - Lightbox (in Lumina)
 - Font Awesome (icons)
 - Google Fonts
+
+---
+
+## 📁 Folder Structure
+
+```text
+Project Root
+├── CSS
+│   ├── 1 css-basics
+│   ├── 2 box-model-and-positioning
+│   ├── 3 flexbox
+│   ├── 4 responsive-design
+│   ├── 5 various-css-features
+│   ├── 6 advanced-selectors-and-pseudo
+│   ├── 7 css-grid
+│   └── 8 transitions-and-animations
+├── HTML
+│   ├── 1 essential-html
+│   ├── 2 html-forms-and-input-elements
+│   └── 3 additional-html-elements
+├── landing-form-mini-project
+├── leno-website-bem
+├── lumina-website
+└── tutor-website
+```
 
 ---
 
@@ -70,25 +95,25 @@ This repository demonstrates my understanding of modern **HTML5** and **CSS3** c
 
 ---
 
-## 📁 Folder Structure
+## 📚 What I Learned
 
-```text
-Project Root
-├── CSS
-│   ├── 1 css-basics
-│   ├── 2 box-model-and-positioning
-│   ├── 3 flexbox
-│   ├── 4 responsive-design
-│   ├── 5 various-css-features
-│   ├── 6 advanced-selectors-and-pseudo
-│   ├── 7 css-grid
-│   └── 8 transitions-and-animations
-├── HTML
-│   ├── 1 essential-html
-│   ├── 2 html-forms-and-input-elements
-│   └── 3 additional-html-elements
-├── landing-form-mini-project
-├── leno-website-bem
-├── lumina-website
-└── tutor-website
-```
+- Writing clean, semantic **HTML5**
+- Structuring scalable and maintainable **CSS**
+- Building responsive layouts using **Flexbox** and **CSS Grid**
+- Improved accessibility (**ARIA** roles, keyboard navigation, contrast)
+- Organizing styles using **BEM methodology**
+- Creating reusable utility classes
+- Using **CSS variables** for consistent theming
+- Adding smooth **animations and transitions**
+- Integrating **Lightbox** and **Font Awesome**
+- Deploying static websites using modern hosting platform **netlify**
+
+## 🎓 Course Credit
+
+These projects are based on the Udemy course:  
+**Modern HTML & CSS From The Beginning 2.0** by **Brad Traversy**
+
+## ⚠️ Disclaimer
+
+This repository is for educational purposes only.  
+Designs and project ideas are inspired by the course material.
