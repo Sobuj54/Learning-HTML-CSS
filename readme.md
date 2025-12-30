@@ -119,7 +119,7 @@ You can explore and run these projects locally in a few simple steps:
 Click the "Copy" button next to the command (or copy manually):
 
 ```bash
-https://github.com/Sobuj54/Learning-HTML-CSS
+https://github.com/Sobuj54/Learning-HTML-CSS.git
 ```
 
 2️⃣ Navigate into the Project Folder
